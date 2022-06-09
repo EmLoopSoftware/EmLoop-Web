@@ -1,0 +1,177 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Lato', monospace;
+    color: rgb(255, 255, 255);
+    background-image: repeating-linear-gradient(220deg, rgb(28, 38, 71),rgb(53, 68, 116),rgb(26, 32, 51), rgb(38, 52, 100), rgb(0, 0, 0),rgb(38, 52, 100),rgb(53, 68, 116),rgb(28, 38, 71),rgb(28, 38, 71) 86%);background-size: 1000000%, cover;animation: gradient 20s linear infinite;
+
+}
+::-moz-selection { /* Code for Firefox */
+    color: rgb(26, 32, 51);
+    background: rgb(255, 255, 255);
+  }
+  
+  ::selection {
+    color: rgb(26, 32, 51);
+    background: rgb(255, 255, 255);
+
+  }
+@keyframes gradient{
+    0%{background-position: 0%;}
+    100%{background-position: 100%;}
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.topnav {
+    background: rgb(26, 32, 51);
+    overflow: hidden;
+    padding: 1px 10px;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.topnav a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    color: rgb(160, 160, 160);
+}
+
+.topnav a.active {
+    color: rgb(160, 160, 160);
+}
+
+.right-topnav {
+    float: right;
+}
+.title {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-left: 25vh;
+    
+}
+
+.title h1 {
+    font-size: 5rem;
+    font-weight: normal;
+    vertical-align: top;
+
+}
+.title h3 {
+    font-size: 3rem;
+    font-weight: normal;
+
+}
+.mainstuff {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: 25vh;
+    align-items: top;
+    
+}
+.mainstuff h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+
+}
+.mainstuff h5{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.mainstuff a:link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.664);
+    font-weight: bold;
+
+}
+.mainstuff a:visited {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.664);
+}
+.mainstuff a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+
+
+
+footer {
+    z-index: -1;
+    padding: 10px 10px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    background: rgb(0, 0, 0);}footer a{color: rgb(255, 255, 255);text-decoration: none;padding: top;font-size: 0.7rem;}
+
+.bottombar a.fa {
+    float: center;
+    z-index: 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.bottombar a:hover {
+    color: rgb(88, 88, 88);
+}
+h2 {
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .topnav a.logo {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    html {
+        background-image: repeating-linear-gradient(220deg, rgb(28, 38, 71),rgb(53, 68, 116),rgb(26, 32, 51), rgb(38, 52, 100), rgb(0, 0, 0),rgb(38, 52, 100),rgb(53, 68, 116),rgb(28, 38, 71),rgb(28, 38, 71) 86%);background-size: 1000000%, cover;animation: gradient 20s linear infinite;
+    }
+
+    .right-topnav {
+        float: none;
+    }
+    .mainstuff {
+        margin: 6vh;
+    }
+    .title {
+        margin: 6vh;
+    }
+
+
+
+    h4{padding-top: 40px;}
+    h5,h6{font-size: 2vh;margin: 50px;left:0;margin-top: 200px;text-align: center;display: inline-block;}
+    h7{margin-top: 250px;left:0;padding: top;display: inline-block;}
+
+
+}
