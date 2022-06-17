@@ -37,6 +37,7 @@ header {
     padding: 1px 10px;
 }
 
+
 .topnav a {
     float: left;
     color: rgb(255, 255, 255);
@@ -202,12 +203,12 @@ h6 {
 }
 .about a:link {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.515);
+    color: rgb(160, 160, 160);
 
 }
 .about a:visited {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.515);
+    color: rgb(160, 160, 160);
 }
 .about a:hover {
     text-decoration: none;
