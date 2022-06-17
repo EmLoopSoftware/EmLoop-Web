@@ -101,17 +101,17 @@ header {
 }
 .mainstuff a:link {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.664);
+    color: rgb(160, 160, 160);
     font-weight: bold;
 
 }
 .mainstuff a:visited {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.664);
+    color: rgb(160, 160, 160);
 }
 .mainstuff a:hover {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgb(255, 255, 255);
 }
 
 
