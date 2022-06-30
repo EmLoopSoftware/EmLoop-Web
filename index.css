@@ -336,6 +336,17 @@ footer {
     line-height: 25px;
     border-radius: 4px;
 }
+.bottombar a.fa-brands {
+    float: center;
+    z-index: 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
 
 .bottombar a:hover {
     color: rgb(88, 88, 88);
