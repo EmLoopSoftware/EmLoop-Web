@@ -254,9 +254,7 @@ h5 {text-align:left;
     text-align: center;
     font-size: 3vh;
 }
-.emsafe a {
-    visibility: hidden;
-}
+
 
 input[type=text], select, [type=email] {
     width: 100%;
