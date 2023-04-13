@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <!--TITLE-->
+    <title>Redirecting</title>
+
+
+
+
+    <!--temp tracking-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VHZPHG1Y1E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VHZPHG1Y1E');
+
+  const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const link = urlParams.get('link');
+    console.log(link)
+    window.location.replace("https://" + link);
+</script>
+
+
+
+</head><!--end of head section-->
+
+<script>
+
+
+</script>
